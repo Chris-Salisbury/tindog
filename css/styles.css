@@ -14,15 +14,12 @@ body {
   line-height: 1.5;
 }
 
-.container-fluid {
-  padding: 2% 15%;
+.top-container {
+  padding: 0% 15%;
 }
 
 /* Navigation Bar */
 
-.navbar {
-  padding: 0 0 4.5rem;
-}
 
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
@@ -37,7 +34,7 @@ body {
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat";
-  font-weight: 300;
+  font-weight: 400;
 }
 /* Download Buttons */
 
@@ -47,22 +44,29 @@ body {
 
 /* Title Image */
 
+.main-header {
+  margin: 2rem auto;
+}
+
 .doggo-phone {
   position: relative;
-  left: 17%;
   transform: rotate(25deg);
-  width: 60%;
+  width: 50%;
+  right: -30%;
+  top: 9%;
 }
 
 /* Middle feature section */
 
 #features {
   padding: 10% 10%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box {
   text-align: center;
-  padding: 0 5%;
+  padding: 4.5%;
 }
 
 .feature-box h3 {
@@ -77,10 +81,120 @@ body {
 
 .icons {
   color: #ef8172;
-  /* font-size: 4rem; */
   margin-bottom: 1rem;
 }
 
 .icons:hover {
   color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  padding: 5% 13%;
+  text-align: center;
+}
+
+#testimonials h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 1rem 6rem;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-author {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 75px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pricing-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  padding: 4% 13%;
+}
+
+.pricing-heading h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.cta-btn {
+  margin: 1rem 1rem auto;
+}
+
+.footer {
+  text-align: center;
+  margin: 5rem auto;
+}
+
+.foot-copyright {
+  margin: 2rem auto;
+}
+
+.foot-img {
+  margin: 1rem 1rem auto;
+}
+
+.cta {
+  background-color: #ff4c68;
+  font-family: "Montserrat", sans-serif;
+  padding: 7% 2%;
+  color: #fff;
+}
+
+.cta h3 {
+  margin: 1rem auto 3rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  width: 60%;
+}
+
+.btn-img {
+margin: auto 3px;
+}
+
+@media (max-width: 1028px) {
+  .doggo-phone {
+    position: static;
+    transform: rotate(0);
+
+  }
 }
