@@ -161,15 +161,20 @@ body {
 
 .footer {
   text-align: center;
-  margin: 5rem auto;
+  margin: 5rem auto 4rem;
 }
 
 .foot-copyright {
-  margin: 2rem auto;
+  margin: 3rem auto 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #8f8f8f;
+  font-size: 22px;
 }
 
 .foot-img {
   margin: 1rem 1rem auto;
+  font-size: 24px;
 }
 
 .cta {
